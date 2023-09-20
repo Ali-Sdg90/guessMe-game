@@ -19,59 +19,67 @@
         </div>
 
         <div class="wordContiner">
-            <div>کلماتی که باید حدس بزنی:</div>
+            <div>حرف هایی که باید حدس بزنی:</div>
             <div class="wordBox wordToFind">
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
+                <!-- <div>a</div> -->
+                <!-- <div>a</div> -->
+                <!-- <div>a</div> -->
+                <!-- <div>a</div> -->
+                <!-- <div>a</div> -->
             </div>
 
-            <div>کلماتی که اشتباه حدس زدی:</div>
+            <div>حرف هایی که اشتباه حدس زدی:</div>
             <div class="wordBox failedLetters">
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
+                <!-- <div>a</div> -->
+                <!-- <div>a</div> -->
+                <!-- <div>a</div> -->
+                <!-- <div>a</div> -->
+                <!-- <div>a</div> -->
             </div>
         </div>
 
         <div class="keyboard">
-            <button onclick="myFunction(this)">ا</button>
-            <button onclick="myFunction(this)">ب</button>
-            <button onclick="myFunction(this)">پ</button>
-            <button onclick="myFunction(this)" disabled>ت</button>
-            <button onclick="myFunction(this)">ث</button>
-            <button onclick="myFunction(this)">ج</button>
-            <button onclick="myFunction(this)">چ</button>
-            <button onclick="myFunction(this)">ح</button>
-            <button onclick="myFunction(this)">خ</button>
-            <button onclick="myFunction(this)">د</button>
-            <button onclick="myFunction(this)">ذ</button>
-            <button onclick="myFunction(this)">ر</button>
-            <button onclick="myFunction(this)">ز</button>
-            <button onclick="myFunction(this)">ژ</button>
-            <button onclick="myFunction(this)">س</button>
-            <button onclick="myFunction(this)">ش</button>
-            <button onclick="myFunction(this)">ص</button>
-            <button onclick="myFunction(this)">ض</button>
-            <button onclick="myFunction(this)">ط</button>
-            <button onclick="myFunction(this)">ظ</button>
-            <button onclick="myFunction(this)">ع</button>
-            <button onclick="myFunction(this)">غ</button>
-            <button onclick="myFunction(this)">ف</button>
-            <button onclick="myFunction(this)">ق</button>
-            <button onclick="myFunction(this)">ک</button>
-            <button onclick="myFunction(this)">گ</button>
-            <button onclick="myFunction(this)">ل</button>
-            <button onclick="myFunction(this)">م</button>
-            <button onclick="myFunction(this)">ن</button>
-            <button onclick="myFunction(this)">و</button>
-            <button onclick="myFunction(this)">ه</button>
-            <button onclick="myFunction(this)">و</button>
-            <button onclick="myFunction(this)">ی</button>
+            <div class="endGame">
+                <div class="endGame-message">
+                    <!-- متاسفانه با وجود تلاش خوبت نتونستی کلمه درست رو حدس بزنی.
+                    کلمه درست "${selectedName}" بود. -->
+                </div>
+                <div>برای بازی بعدی دکمه ی زیر رو فشار بده ↓</div>
+            </div>
+            
+            <button onclick="btnFunc(this)">ا</button>
+            <button onclick="btnFunc(this)">ب</button>
+            <button onclick="btnFunc(this)">پ</button>
+            <button onclick="btnFunc(this)">ت</button>
+            <button onclick="btnFunc(this)">ث</button>
+            <button onclick="btnFunc(this)">ج</button>
+            <button onclick="btnFunc(this)">چ</button>
+            <button onclick="btnFunc(this)">ح</button>
+            <button onclick="btnFunc(this)">خ</button>
+            <button onclick="btnFunc(this)">د</button>
+            <button onclick="btnFunc(this)">ذ</button>
+            <button onclick="btnFunc(this)">ر</button>
+            <button onclick="btnFunc(this)">ز</button>
+            <button onclick="btnFunc(this)">ژ</button>
+            <button onclick="btnFunc(this)">س</button>
+            <button onclick="btnFunc(this)">ش</button>
+            <button onclick="btnFunc(this)">ص</button>
+            <button onclick="btnFunc(this)">ض</button>
+            <button onclick="btnFunc(this)">ط</button>
+            <button onclick="btnFunc(this)">ظ</button>
+            <button onclick="btnFunc(this)">ع</button>
+            <button onclick="btnFunc(this)">غ</button>
+            <button onclick="btnFunc(this)">ف</button>
+            <button onclick="btnFunc(this)">ق</button>
+            <button onclick="btnFunc(this)">ک</button>
+            <button onclick="btnFunc(this)">گ</button>
+            <button onclick="btnFunc(this)">ل</button>
+            <button onclick="btnFunc(this)">م</button>
+            <button onclick="btnFunc(this)">ن</button>
+            <button onclick="btnFunc(this)">و</button>
+            <button onclick="btnFunc(this)">ه</button>
+            <button onclick="btnFunc(this)">و</button>
+            <button onclick="btnFunc(this)">ی</button>
         </div>
 
         <button class="restartBtn">بازی جدید</button>

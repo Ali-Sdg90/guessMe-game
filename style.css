@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 730px;
 }
 
 h1 {
@@ -21,8 +22,7 @@ h1 {
     align-items: center;
     font-size: 40px;
     padding-top: 20px;
-    text-shadow: 3px 0 rgba(98, 0, 255, 0.25),
-    -3px 0 rgba(255, 0, 0, 0.25);;
+    text-shadow: 3px 0 rgba(98, 0, 255, 0.25), -3px 0 rgba(255, 0, 0, 0.25);
 }
 
 .introduce {
@@ -67,7 +67,7 @@ h1 {
 }
 
 .wordToFind {
-    color: rgb(68, 68, 255);
+    color: #4444ff;
 }
 
 .keyboard {
@@ -81,6 +81,7 @@ h1 {
     margin: 15px 0 15px;
     padding: 4px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
 .keyboard button {
@@ -106,6 +107,27 @@ h1 {
 }
 .keyboard button:disabled:active {
     background-color: rgb(52, 52, 52);
+}
+
+.endGame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.382);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 50px 30px;
+
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.endGame div{
+    font-size: 35px;
 }
 
 .restartBtn {
